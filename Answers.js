@@ -64,11 +64,30 @@ console.log(favMovies[18]);//Labels it as undefined when it is unable to reach o
 //Arrays are not locked in with the const variable. */
 
 //Where is Waldo
-const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+/*const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
                     ["Lucinda", "Jacc", "Neff", "Snoop"],
                     ["Petunia", ["Baked Goods", "Waldo"]]];
 
 console.log(whereIsWaldo.slice([1])); //may need to come back to this
 console.log(whereIsWaldo[2][2]= "No one");
 console.log(whereIsWaldo[3][1][1]);
-console.log(whereIsWaldo);
+console.log(whereIsWaldo); */
+
+//Excited Kitten
+/*const kittenTwenty = ["Love me, pet me! HSSSSS!"];
+const evenKitty = ["...human...why you taking pictures of me?...","...the catnip made me do it...", "...why does the red dot always get away..."];
+*/
+//Skipped over this one for now, will come back with fresh eyes
+
+//Find the Median
+const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+nums.sort();
+const midpoint = Math.floor(nums.length/2);
+console.log(nums);
+console.log(midpoint);
+console.log(nums[12]);
+
+
+
+
+
