@@ -41,7 +41,24 @@ wolfy.push("Gameboy") */
 
 // Yell at the Ninja Turtles
 
-const turtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
+/*const turtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
 for (const element of turtles ) {
     console.log(element);
-}
+} */
+
+//Methods Revisited
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+//console.log(favMovies[8]);
+favMovies.sort(); //Alphabetized the movies, did not permanently alter
+favMovies.pop();
+favMovies.push("Guardians of the Galaxy");
+favMovies.reverse();
+favMovies.shift();
+favMovies.unshift();
+favMovies.splice();
+favMovies[14] = "Avatar";
+console.log(favMovies.slice(9,18)); //No, this will not permanently alter the array, since it's only through console.log
+const sliceMovies = (favMovies.slice(1,9));
+console.log(sliceMovies);
+console.log(favMovies[18]);//Labels it as undefined when it is unable to reach one
+//Arrays are not locked in with the const variable. 
