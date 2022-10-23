@@ -27,7 +27,7 @@ for (let i=0; i<= 100; i++) {
 //I DID THIS ONE SO FAST YAYYYY!!! AND WITHOUT NOTES!
 
 //Wild Wild Life
-const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
+/*const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
 const sharky = ["Sharky", "shark", 20, "Left Coast"]
 const plantee = ["Plantee", "plant",  5000 , "Mordor"]
 const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
@@ -37,4 +37,11 @@ plantee[2] = 5001
 wolfy [3] ="Gotham City"
 dart.push("Hawkins")
 wolfy.shift()
-wolfy.push("Gameboy")
+wolfy.push("Gameboy") */
+
+// Yell at the Ninja Turtles
+
+const turtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
+for (const element of turtles ) {
+    console.log(element);
+}
